@@ -1,0 +1,121 @@
+a {
+}
+
+a:hover {
+}
+
+a:active {
+}
+
+a:visited {
+}
+
+.headerNav {
+}
+
+.headerNav h2 {
+}
+
+.headerNav ul li a,
+.footerNav ul li a {
+}
+
+.headerNav ul li a:link,
+.footerNav ul li a:link {
+}
+
+.headerNav ul li a:visited,
+.footerNav ul li a:visited {
+}
+
+.headerNav ul li a:hover,
+.footerNav ul li a:hover {
+}
+
+.articleArea h2 {
+	border-bottom: 4px solid MAIN !important;
+}
+
+/*.bgGray {
+}*/
+
+.archiveTitle h3 {
+}
+
+.entry h3 a {
+}
+
+.entry h3 a:hover {
+}
+
+.button:hover {
+}
+
+.news h2 {
+}
+
+.companyArea h3 span {
+}
+
+.blogCalendar .today {
+}
+
+.blogWidgetCalender h3 {
+}
+
+.widget-blog-categories-archives h3,
+.widget-blog-monthly-archives h3,
+.widget-blog-recent-entries h3 {
+}
+
+.blogWidget [class*="depth-"] li:before,
+.blogWidget ul [class*="fontawesome-"]:before {
+}
+
+.footerNav {
+}
+
+.footerNav ul li a:hover {
+}
+
+.pagetop {
+}
+
+.pagetop a {
+}
+
+/*
+#Header {
+}
+a {
+}
+a:link {
+}
+a:visited {
+}
+a:hover {
+}
+#top-main-telfax-title{
+}
+#Footer {
+}
+#ContentsBody h2{
+}
+table.blog-calendar td.today{
+}
+*/
+
+@media only screen and (min-width: 500px) and (max-width: 787px) {
+
+.articleArea h2 {
+}
+
+}
+
+@media only screen and (max-width: 499px) {
+
+.articleArea h2 {
+}
+
+}
+

@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+ul {
+	list-style-type: none;
+}
+
+header {
+	height: 590px;
+}
+
+header h1 {
+	padding: 10px 0;
+}
+
+.headerNav ul li,
+.footerNav ul li {
+	width: 24.6667%;
+}
+
+.mainVisual {
+	height: 0;
+}
+
+.matsuriArea h3 {
+	margin-left: 0;
+}
+
+.matsuriArea li div.matsuri-comment {
+	float: left;
+	padding: 2em;
+	width: 40%;
+}
+
+.matsuriArea li div.matsuri-img {
+	float: right;
+	padding-top: 2em;
+	width: 40%;
+	text-align: right;
+}
+
+.matsuriArea li div.matsuri-img img {
+	width: 100%;
+	max-width: 400px;
+}
+.matsuriArea li div.matsuri-img-thumb {
+	clear: both;
+	text-align: right;
+}
+.matsuriArea li div.matsuri-img-thumb img {
+	height: 150px;
+}
+img.border_radius {
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+#kishitsu blockquote {
+	background-color: #ddd;
+	padding: 3em 1em;
+	position: relative;
+}
+#kishitsu blockquote:before {
+	content: "“";
+	font-size: 600%;
+	line-height: 1em;
+	font-family: "ＭＳ Ｐゴシック",sans-serif;
+	color: #999;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#kishitsu blockquote:after {
+	content: "”";
+	font-size: 600%;
+	line-height: 0em;
+	font-family: "ＭＳ Ｐゴシック",sans-serif;
+	color: #999;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+header {
+	/*background-image: url(../img/bg_th_noice_04.jpg);*/
+	background-image: url(../img/bg_noice_01.gif);
+}
+
+@media only screen and (min-width: 500px) and (max-width: 787px) {
+
+header {
+        height: 540px;
+}       
+}
+
+@media only screen and (min-width: 788px) and (max-width: 1110px) {
+
+header {
+	height: 520px;
+}
+}
+
+@media only screen and (max-width: 499px) {
+
+header {
+	height: 500px;
+}
+}

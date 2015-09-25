@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^/chan
+RewriteRule ^(.*)$ /chan/ [NE,R=301,L]
