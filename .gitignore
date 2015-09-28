@@ -57,3 +57,4 @@ Thumbs.db
 !/app/tmp/tests/empty
 
 app/Config/database.php
+app/Config/install.php
