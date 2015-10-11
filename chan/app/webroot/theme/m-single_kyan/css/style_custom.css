@@ -6,10 +6,19 @@ ul {
 
 header {
 	height: 590px;
+	/*background-image: url(../img/bg_noice_01.gif);*/
+	/*background-image: url(../img/bg_th_noice.jpg);*/
+	/*background: url(../img/matsuri_jyugoya_06.jpg) top left;*/
+	background: url(../img/bg_header.jpg) top left;
+	color: #666;
+	text-shadow: 1px 1px 2px #808080;
 }
-
 header h1 {
 	padding: 10px 0;
+}
+
+header .header-wrap {
+	background-color: rgba(255,255,255,0.6);
 }
 
 .headerNav ul li,
@@ -81,10 +90,6 @@ img.border_radius {
 	bottom: 0;
 }
 
-header {
-	/*background-image: url(../img/bg_th_noice_04.jpg);*/
-	background-image: url(../img/bg_noice_01.gif);
-}
 
 @media only screen and (min-width: 500px) and (max-width: 787px) {
 
