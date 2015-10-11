@@ -51,13 +51,20 @@
 	またしまの守り神シーサーも登場します。</div>
 
 	<div class="matsuri-img">
-		<img class="border_radius" alt="十五夜あしび" src="<?php $this->BcBaser->themeUrl() ?>img/matsuri_jyugoya_02.jpg" />
+		<!--<img class="border_radius" alt="十五夜あしび" src="<?php $this->BcBaser->themeUrl() ?>img/matsuri_jyugoya_02.jpg" />-->
+		<img class="border_radius" alt="十五夜あしび" src="<?php $this->BcBaser->themeUrl() ?>img/matsuri_jyugoya_06.jpg" />
 	</div>
 	<div class="matsuri-img-thumb">
+<!--
 		<img class="border_radius" alt="十五夜あしび" src="<?php $this->BcBaser->themeUrl() ?>img/matsuri_jyugoya_03.jpg" />
 		<img class="border_radius" alt="十五夜あしび" src="<?php $this->BcBaser->themeUrl() ?>img/matsuri_jyugoya_04.jpg" />
 		<img class="border_radius" alt="十五夜あしび" src="<?php $this->BcBaser->themeUrl() ?>img/matsuri_jyugoya_05.jpg" />
 		<img class="border_radius" alt="十五夜あしび" src="<?php $this->BcBaser->themeUrl() ?>img/matsuri_jyugoya_01.jpg" />
+-->
+
+		<img class="border_radius" alt="十五夜あしび" src="<?php $this->BcBaser->themeUrl() ?>img/matsuri_jyugoya_08.jpg" />
+		<img class="border_radius" alt="十五夜あしび" src="<?php $this->BcBaser->themeUrl() ?>img/matsuri_jyugoya_10.jpg" />
+		<img class="border_radius" alt="十五夜あしび" src="<?php $this->BcBaser->themeUrl() ?>img/matsuri_jyugoya_07.jpg" />
 	</div>
 
 	<p style="clear:both;">&nbsp;</p>
