@@ -33,39 +33,9 @@
 <?php if ($this->BcBaser->isHome()): ?>
 <script src="<?php $this->BcBaser->themeUrl() ?>js/camera.js"></script>
 <script src="<?php $this->BcBaser->themeUrl() ?>js/jquery.mobile.customized.min.js"></script>
-<script>
-	$(function() {
-/*
-	//camera.js
-	$('.cameraWrap').camera({
-		fx: 'random', //エフェクトタイプ
-		loader: 'bar', //ローダーのタイプ
-		barPosition: 'bottom', //ローダーのバーの位置
-		loaderColor: '#6AA52E', //ローダーの色
-		loaderBgColor: '#FFFFFF',　//ローダーの背景の色
-		time: 4000, //スライドの表示時間
-		transPeriod: 1500, //スライドアニメーションの時間
-		thumbnails: false
-	});
-*/
-	
-	//parallax
-		var mainV = $('.mainVisual').offset().top;
-		$('.mainVisual .cameraSlide').css({'top':-100});
-		$(window).scroll(function() {
-			var value = $(this).scrollTop();
-		$('.mainVisual .cameraSlide').css({'top': mainV - 400 + value / 2});
-	});
-
-});
-</script>
 <?php endif ?>
 <?php $this->BcBaser->element('google_analytics') ?>
 </head>
-
-
-
-
 
 <body>
 <div id="BaseUrl" style="display: none"><?php echo $this->request->base ?></div>
@@ -98,6 +68,9 @@ $(".cameraList").each(function() {
 
 <?php /* ちゃぬんちゅの気質 */ ?>
 <?php $this->BcBaser->page('/kishitsu') ?>
+
+<?php /* しま造い大学 */ ?>
+<?php $this->BcBaser->page('/college') ?>
 
 <?php /* むすまいのしま　ちゃん */ ?>
 <?php $this->BcBaser->page('/about') ?>

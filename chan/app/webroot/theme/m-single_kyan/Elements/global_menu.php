@@ -28,26 +28,16 @@ if (Configure::read('BcRequest.agent')) {
 <li><a href="#top">ホーム</a></li>
 <li><a href="#matsuri">ちゃんの祭り</a></li>
 <li><a href="#kishitsu">ちゃぬんちゅの気質</a></li>
+<li><a href="#college">しま造い大学</a></li>
 <li><a href="#about">むすまいのしま ちゃん</a></li>
-<!--
-<li><a href="<?php $this->BcBaser->root() ?>news/">新着情報</a></li>
-<li><a href="#service">事業案内</a></li>
-<li><a href="#company">会社案内</a></li>
-<li><a href="#recruit">採用情報</a></li>
-<li><a href="#contact">お問い合わせ</a></li>
--->
 </ul>
 <?php else: ?>
 <ul>
 <li><a href="<?php $this->BcBaser->root() ?>">ホーム</a></li>
 <li><a href="<?php $this->BcBaser->root() ?>matsuri/">ちゃんの祭り</a></li>
-<!--
-<li><a href="<?php $this->BcBaser->root() ?>news/">新着情報</a></li>
-<li><a href="<?php $this->BcBaser->root() ?>#service">事業案内</a></li>
-<li><a href="<?php $this->BcBaser->root() ?>#company">会社案内</a></li>
-<li><a href="<?php $this->BcBaser->root() ?>#recruit">採用情報</a></li>
-<li><a href="<?php $this->BcBaser->root() ?>#contact">お問い合わせ</a></li>
--->
+<li><a href="<?php $this->BcBaser->root() ?>kishitsum/">ちゃぬんちゅの気質</a></li>
+<li><a href="<?php $this->BcBaser->root() ?>college/">しま造い大学</a></li>
+<li><a href="<?php $this->BcBaser->root() ?>about/">むすまいのしま ちゃん</a></li>
 </ul>
 <?php endif ?>
 

@@ -23,7 +23,8 @@ header .header-wrap {
 
 .headerNav ul li,
 .footerNav ul li {
-	width: 24.6667%;
+	/*width: 24.6667%;*/
+	width: 19.6%;
 }
 
 .mainVisual {
@@ -90,6 +91,17 @@ img.border_radius {
 	bottom: 0;
 }
 
+.collegeArea h3 {
+	margin: 0 2% 0 0;
+}
+.collegeArea h3 span {
+	border-radius: 120px;
+	width: 240px;
+	height: 240px;
+}
+.collegeArea li div.college-comment {
+	line-height: 2.2;
+}
 
 @media only screen and (min-width: 500px) and (max-width: 787px) {
 
@@ -110,4 +122,20 @@ header {
 header {
 	height: 550px;
 }
+
+.collegeArea h3 span {
+	padding: 5px 0;
+	width: 100%;
+	height: auto;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+	-ms-border-radius: 4px;
+	border-radius: 4px;
+	display: block;
+	font-size: 18px;
+	font-size: 1.125rem;
+	line-height: 120%;
+}
+
 }
