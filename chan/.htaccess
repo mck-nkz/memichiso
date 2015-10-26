@@ -38,6 +38,13 @@
 #
 
 RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^www\.memichiso\.com$
+RewriteRule ^(.*)$ http://memichiso.com/$1 [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^.*/index.(html|php)
+RewriteRule ^(.*)index.(html|php)$ http://%{HTTP_HOST}/$1 [R=301,L]
+
 #RewriteBase /
 RewriteBase /chan
 RewriteRule ^$ app/webroot/ [L]
