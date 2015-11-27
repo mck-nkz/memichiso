@@ -15,8 +15,10 @@
 
 <img src="<?php $this->BcBaser->themeUrl() ?>img/kyan_map.png" alt="" />
 <br />
+<div>
+    <a href="../calendar/" target="_blank" style="color:#ff0000;">前道荘 宿泊予約カレンダー</a>   
 </div>
-
+</div>
 
 
 
