@@ -1,0 +1,14 @@
+
+
+.page-header {
+    /*border-bottom: 1px solid #CC0000;*/
+}
+
+#footer {
+    background-color: #CC0000;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    margin-top: 30px;
+}
