@@ -32,7 +32,7 @@
 	<li>
 	<h3><span>②綱引き</span></h3>
 
-	<div class="matsuri-comment">旧暦の６月２５（６月カッチー）、２６日（アミシヌウガン）の時、しまんちゅが東西に分かれて、綱を引き合います。</div>
+	<div class="matsuri-comment">旧暦の６月２５（６月カシチー）、２６日（アミシヌウガン）の時、しまんちゅが東西に分かれて、綱を引き合います。</div>
 
 	<div class="matsuri-img">
 		<img class="border_radius" alt="綱引き" src="<?php $this->BcBaser->themeUrl() ?>img/matsuri_tsunahiki_03.jpg" />
