@@ -35,7 +35,8 @@
 
     <!-- footer -->
     <div class="row" style="margin-top:30px;">
-        <p><a href="http://meemichisou.web.fc2.com/">民宿『前道荘（メーミチソウ）』</a><br />
+        <p><a href="http://meemichisou.web.fc2.com/">民宿『前道荘（メーミチソウ）』</a> 
+        営業種別 簡易宿所 第H21-10号<br />
         〒900-0034 沖縄県島尻郡南風原町字喜屋武55番地　 TEL / 090-6637-7582（野原）
         </p>
         <p style="color:#aaa;">※宴会目的のご宿泊はご遠慮願います。</p>
